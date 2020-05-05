@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1146270499796033382}
   - component: {fileID: 7235548502514041479}
   m_Layer: 0
-  m_Name: Food_Fish_Cooked
+  m_Name: Bad1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -121,3 +121,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51980493f1dd945b5b3d26014fe84d0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minSpeed: 12
+  maxSpeed: 16
+  maxTorque: 10
+  pointValue: -1
+  explosionParticle: {fileID: 7303472089845130122, guid: 6cbc21f5e9162483993a2b84b14d5ac8,
+    type: 3}

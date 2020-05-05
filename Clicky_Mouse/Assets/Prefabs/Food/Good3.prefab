@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6144873962986940783}
   - component: {fileID: 3166959251491487595}
   m_Layer: 0
-  m_Name: Food_EnergyCan_01
+  m_Name: Good3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -121,3 +121,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51980493f1dd945b5b3d26014fe84d0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minSpeed: 12
+  maxSpeed: 16
+  maxTorque: 10
+  pointValue: 1
+  explosionParticle: {fileID: 2478549635105912040, guid: ec46c8c4a3cbc429382ee48bd9169b45,
+    type: 3}

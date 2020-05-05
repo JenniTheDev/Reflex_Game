@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2566698008587309488}
   - component: {fileID: 7970895408810659765}
   m_Layer: 0
-  m_Name: Food_Pizza_01
+  m_Name: Good2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -121,3 +121,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51980493f1dd945b5b3d26014fe84d0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minSpeed: 12
+  maxSpeed: 16
+  maxTorque: 10
+  pointValue: 1
+  explosionParticle: {fileID: 2088871590894813759, guid: 745208c9d6e104225bd99e1ab894e3bb,
+    type: 3}

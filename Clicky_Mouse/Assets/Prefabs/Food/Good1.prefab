@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8170002559408808981}
   - component: {fileID: 7677644279684561522}
   m_Layer: 0
-  m_Name: Food_Cookie_01
+  m_Name: Good1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -121,3 +121,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51980493f1dd945b5b3d26014fe84d0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minSpeed: 12
+  maxSpeed: 16
+  maxTorque: 10
+  pointValue: 1
+  explosionParticle: {fileID: 625621707174889904, guid: ef43e5aef41c142fb85a7658a397dc75,
+    type: 3}
